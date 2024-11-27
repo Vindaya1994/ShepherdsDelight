@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href /ShepherdsDelight/",
+    "build": "ng build --configuration production --base-href /ShepherdsDelight/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --prod --base-href /ShepherdsDelight/ && npx angular-cli-ghpages --dir=dist/shepherds-delights"
+"deploy": "ng build --configuration production --base-href /ShepherdsDelight/ && npx angular-cli-ghpages --dir=dist/shepherds-delights"
   },
   "private": true,
   "dependencies": {
