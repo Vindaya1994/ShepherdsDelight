@@ -2,3 +2,29 @@
     height: 200px;
     background: #aaa;
   }
+
+  .center-container {
+    display: flex;                    /* Enables Flexbox */
+    justify-content: center;          /* Centers horizontally */
+    align-items: flex-start;              /* Centers vertically */
+    height: 100vh;                    /* Full viewport height */
+    width: 100%;                      /* Full width of the page */
+    background-image: url('src/assets/img//home/opening.jpg');  /* Add your image here */
+    background-size: cover;           /* Ensures the image covers the whole container */
+    background-position: center;      /* Centers the image */
+    background-repeat: no-repeat;     /* Prevents the image from repeating */
+    background-color: #F2E3BC;        /* Fallback background color if image is not available */
+    color: white;
+  }
+
+  .load-btn {
+    padding: 12px 36px;                   /* Add padding to the button */
+    background-color: #22314E;            /* Button background color */
+    color: white;                         /* White text color */
+    font-size: 18px;                      /* Font size for the text */
+    border: none;                         /* Remove border */
+    cursor: pointer;                     /* Pointer cursor on hover */
+    border-radius: 50px;                  /* Make the button round */
+    margin: 150px;                         /* Add margin around the button */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
