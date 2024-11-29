@@ -28,3 +28,15 @@
     margin: 150px;                         /* Add margin around the button */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
   }
+
+  .img-fluid-welcome {
+    max-width: 140%;
+    height: auto;
+}
+
+.menu-img {
+  width: 100%; /* Make images take up the full width of the container */
+  height: 250px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures the images cover the area without distortion */
+  border-radius: 8px; /* Optional: add rounded corners to the images */
+}
